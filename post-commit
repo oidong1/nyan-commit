@@ -1,0 +1,5 @@
+if [ `uname` = "Darwin" ]; then
+  afplay nc48308.wav
+elif [ `uname` = "Linux" ]; then
+  aplay nc48308.wav
+fi
